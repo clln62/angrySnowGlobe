@@ -48,5 +48,5 @@ While taking a deep dive into something that I have used before, but only on the
 
 <img src="https://collinpersonal.s3.us-east-2.amazonaws.com/codepen.png" height="75%" width="75%"></img>
 
-#### Link to my dashboard: **https://codepen.io/dashboard/**
+#### Link to my dashboard: **https://codepen.io/clln62**
 
