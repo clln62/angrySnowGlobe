@@ -2,7 +2,7 @@
 
 Diving into codepen.io was new and exciting for me. I wanted to create projects that started out fairly simple, building on my knowledge and level of difficulty as the creativity drove me to build. Angry Snow Globe is one of those projects that started with the simple idea of creating a snow globe, and ideas pile on as I grow and learn more about CSS. While this project is still ongoing, I wanted to create a GitHub repo to not only share my work, but also to encourage creativity through CSS and front-end design.
 
-<img src="https://media.giphy.com/media/XE0IlyWjrBoC1Z52em/giphy.gif" height="75%" width="75%"></img>
+<img src="https://media.giphy.com/media/dUrxkg75idJIcgdoGi/giphy.gif" height="75%" width="75%"></img>
 
 
 
@@ -18,7 +18,7 @@ Diving into codepen.io was new and exciting for me. I wanted to create projects 
 
 | Front End     |
 | ------------- |
-| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" height="115px" width="85px"></img> | 
+| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" height="105px" width="85px"></img> | 
 | <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-opencode-css-8.png" height="125px" width="85px"></img>  | 
 
 ### Front-End
