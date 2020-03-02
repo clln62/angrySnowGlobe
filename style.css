@@ -1,0 +1,257 @@
+body {
+    background-color: rgb(123 165 248);
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .globe {
+    height: 650px;
+    width: 650px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rgb(217 225 226);
+    opacity: 0.6;
+    position: absolute;
+    bottom: -5%;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: inset 0 0 9px 7px white;
+  }
+  
+  .globe__flakes {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background: url("https://user-images.githubusercontent.com/7342669/50293046-ab4ed880-0440-11e9-8537-8a0e70729b34.png"),
+      url("https://user-images.githubusercontent.com/7342669/50293049-ad189c00-0440-11e9-8cae-a57ad65c22ca.png"),
+      url("https://user-images.githubusercontent.com/7342669/50294834-c58ab580-0444-11e9-84b6-186b19edf94d.png");
+    animation: snowing 20s linear infinite;
+    z-index: 8;
+  }
+  
+  .snowman__top {
+    height: 100px;
+    width: 110px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rgb(244 245 240);
+    position: absolute;
+    bottom: 40%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: inset 0 0 9px 1px rgb(215 208 192);
+    z-index: 2;
+  }
+  
+  .top__nose{
+    position: absolute;
+    width: 10%;
+    height: 45%;
+    border-radius: 50% 50% 50% 50% / 70% 70% 10% 10%;
+    background-color: orange;
+    transform: rotate(180deg);
+    bottom: 3%;
+    right: 46%;
+    z-index: 4;
+  }
+  
+  .eyes__1 {
+    height: 10px;
+    width: 10px;
+    border-radius: 20%;
+    display: inline-block;
+    background-color: black;
+    position: absolute;
+    bottom: 54%;
+    z-index: 3;
+    animation: blinkingOne 3s infinite;
+  }
+  
+  .eyes__2 {
+    height: 10px;
+    width: 10px;
+    border-radius: 20%;
+    display: inline-block;
+    background-color: black;
+    position: absolute;
+    bottom: 54%;
+    right: 52%;
+    z-index: 3;
+    animation: blinkingTwo 3s infinite;
+  }
+  
+  .top__hat {
+    position: absolute;
+    bottom: 70%;
+    right: -5%;
+    z-index: 3;
+  }
+  
+  .hat__topper {
+    width: 80px;
+    height: 60px;
+    background-color: black;
+    position: absolute;
+    left: 18%;
+    bottom: 20%;
+  }
+  
+  .hat__bottom {
+    height: 25px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: black;
+    transform: skewX(150deg);
+    position: relative;
+  }
+  
+  .snowman__middle {
+    height: 150px;
+    width: 160px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rgb(244 245 240);
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: inset 0 0 9px 1px rgb(215 208 192);
+    z-index: 1;
+  }
+  
+  .middle__leftArm {
+  /*   position: absolute;
+    left: -5%;
+    top: 10%; */
+  }
+  
+  .middle__leftArm--top {
+    width: 8px;
+    height: 70px;
+    background-color: rgb(160 116 0);
+    position: absolute;
+    border-radius: 20%;
+    transform: rotate(23deg);
+    top: -30%;
+    left: -15%;
+    animation: knocking 2s linear infinite; 
+  }
+  
+  .middle__leftArm--bottom {
+    width: 8px;
+    height: 85px;
+    background-color: rgb(160 116 0);
+    position: absolute;
+    border-radius: 20%;
+    transform: rotate(-40deg) skewY(45deg);
+    left: -8%;
+  /*   animation: armMovement 2s linear infinite; */
+  }
+  
+  .middle__rightArm {
+    position: absolute;
+    right: -12%;
+    bottom: 30%;
+  }
+  
+  .middle__rightArm--top {
+    width: 8px;
+    height: 70px;
+    background-color: rgb(160 116 0);
+    border-radius: 20%;
+    position: absolute;
+    transform: rotate(45deg) skewY(35deg);
+    top: 40%;
+  }
+  
+  .middle__rightArm--bottom {
+    width: 8px;
+    height: 70px;
+    background-color: rgb(160 116 0);
+    border-radius: 20%;
+    transform: rotate(110deg) skewY(45deg);
+  }
+  
+  .snowman__bottom {
+    height: 200px;
+    width: 210px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rgb(244 245 240);
+    position: absolute;
+    bottom: 9.9%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: inset 0 0 9px 1px rgb(215 208 192);
+  }
+  
+  
+  .globe__base {
+    height: 10%;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(68 55 49);
+    z-index: -1;
+    border-radius: 40%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 5;
+  }
+  
+  @keyframes snowing {
+    0% {
+      background-position: 0px 0px;
+    }
+    100% {
+      background-position: 500px 1000px, 400px 400px, 300px;
+    }
+  }
+  
+  @keyframes knocking {
+    0% {
+      transform: skew(0deg);
+      perspective: 0;
+    }
+    50% {
+      transform: skew(-30deg, -60deg);
+      perspective: 75%;
+    }
+    100% {
+      transform: skew(0deg);
+      perspective: 0;
+    }
+  }
+  
+  @keyframes armMovement {
+  
+  }
+  
+  @keyframes blinkingOne {
+      0%, 100% {
+          transform: scale(1, .05) skewY(-20deg);
+      }
+      5%, 95% {
+          transform: scale(1, 1) skewY(-20deg);
+      }
+  }
+  
+  @keyframes blinkingTwo {
+      0%, 100% {
+          transform: scale(1, .05) skewY(20deg);
+      }
+      5%, 95% {
+          transform: scale(1, 1) skewY(20deg);
+      }
+  }
