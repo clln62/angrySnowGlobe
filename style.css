@@ -132,7 +132,7 @@ body {
   top: 10%; */
 }
 
-.middle__leftArm--top {
+.leftArm__top {
   width: 8px;
   height: 70px;
   background-color: rgb(160 116 0);
@@ -144,7 +144,7 @@ body {
   animation: knocking 1s linear infinite; 
 }
 
-.middle__leftArm--bottom {
+.leftArm__bottom {
   width: 8px;
   height: 85px;
   background-color: rgb(160 116 0);
@@ -161,7 +161,7 @@ body {
   bottom: 30%;
 }
 
-.middle__rightArm--top {
+.rightArm__top {
   width: 8px;
   height: 70px;
   background-color: rgb(160 116 0);
@@ -171,7 +171,7 @@ body {
   top: 40%;
 }
 
-.middle__rightArm--bottom {
+.rightArm__bottom {
   width: 8px;
   height: 70px;
   background-color: rgb(160 116 0);
